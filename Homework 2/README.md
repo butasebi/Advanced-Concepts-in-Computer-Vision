@@ -1,4 +1,4 @@
-1. the libraries required to run the project including the full version of each library:
+# 1) the libraries required to run the project including the full version of each library:
 
 os
 numpy == 1.20.3
@@ -7,10 +7,10 @@ tensorflow == 2.11.0
 pickle5 == latest
 matplotlib == 3.4.3
 
-2. How to run the tasks:
+# 2) How to run the tasks:
 
 
-ATTENTION!!! ALL THE PATHS MENTIONED BELOW MUST ALREADY EXIST TO WORK!
+# ATTENTION!!! ALL THE PATHS MENTIONED BELOW MUST ALREADY EXIST TO WORK!
 
 Task1 + Task2: run all the cells
 Task1: run all the cells until the Markdown "Task2"
@@ -38,13 +38,13 @@ dataset_test_path = path to task1 dataset (the folder that contains the images)
 
 The following files will be created from the tasks:
 
-Task1:
+## Task1:
 
 detections_all_faces.npy
 file_names_all_faces.npy
 scores_all_faces.npy
 
-Task2:
+## Task2:
 
 detections_andy.npy
 file_names_andy.npy
